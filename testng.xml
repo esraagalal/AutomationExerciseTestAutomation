@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite" thread-count="2">
+<listeners>
+<listener class-name="data.Listeners"/>
+</listeners>
+
+
+  <test name="Test">
+    <classes>
+      <class name="tests.LoginTest"/> 
+      <class name="tests.AddProductToCartTest"/>
+      <class name="tests.SubmitOrderTest"/>
+    </classes>
+  </test> 
+  
+   <test name="Error Validations Test">
+    <classes>
+      <class name="tests.ErrorValidationsTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
